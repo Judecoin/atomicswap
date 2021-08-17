@@ -56,9 +56,7 @@ Requires [Go 1.11](https://golang.org/dl/) or later
   ```
   $ cd cmd/dcratomicswap && go install
   ```
-
 ## Theory
-
 A cross-chain swap is a trade between two users of different cryptocurrencies.
 For example, one party may send Decred to a second party's Decred address, while
 the second party would send Bitcoin to the first party's Bitcoin address.
@@ -137,7 +135,6 @@ Commands:
   extractsecret <redemption transaction> <secret hash>
   auditcontract <contract> <contract transaction>
 ```
-
 **`initiate <participant address> <amount>`**
 
 The `initiate` command is performed by the initiator to create the first
